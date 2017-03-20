@@ -1,54 +1,61 @@
-#game-board{
+.board {
 	height: 50%;
 	width: 50%;
+	display: inline-block;
 }
-.card{
+.card {
 	height: 200px;
 	width: 150px;
 	border: 1px solid black;
 	border-radius: 10px;
-	background: rgb(255,255,0);
+	background-color: yellow;
 	float: left;
 	margin: 8%;
 }
-h1{
-	color: rgb(2,132,130);
-	padding: 0px 820px 0px 0px;
-}
-h2{
-	color: #FFD700;
-	padding: 0px 820px 0px 0px;
-}
-p{
-	padding: 0px 820px 0px 0px;
-}
-.name{
+.name {
 	color: #FF0000;
 }
-body{
-	text-align: center;
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
 }
-nav{
+h1 {
+	color: rgb(2,132,130);
+	text-align: center;
+	padding: 0px 600px 0px 0;
+
+}
+h2 {
+	color: #FFD700;
+	text-align: center;
+	padding: 0px 600px 0px 0;
+}
+p {
+	text-align: center;
+	padding: 0px 600px 0px 0;
+}
+nav {
 	background-color: #808080;
 }
-a{
+a {
 	background-color: #FFBF00;
 	color: white;
+	text-decoration: none;
 	padding: 35px;
 	display: block;
 	float: left;
 }
-a:hover{
+a:hover {
 	background-color: #EE5F3C;
 }
-.clearfix:after {
-        visibility: hidden;
-        display: block;
-        content: " ";
-        clear: both;
-        height: 0;
-        font-size: 0;
-}
-footer{
+footer {
 	background-color: #808080;
+}
+img {
+	height: 200px;
+	width: 150px;
 }
